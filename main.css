@@ -37,3 +37,18 @@ body {
 #videos h2 {
     text-align: center;
 }
+
+@media (max-width: 767px) {
+    .nav,
+    .navbar {
+        justify-content: center;
+    }
+
+    #release img {
+        max-width: 100%;
+    }
+
+    #release h2 {
+        text-align: center;
+    }
+}

@@ -21,6 +21,10 @@ body {
     color: #ffaa36;
 }
 
+#social-links .nav {
+    margin-left: 1080px;
+}
+
 #home img {
     width: 100%;
 }
@@ -44,11 +48,25 @@ body {
         justify-content: center;
     }
 
+    #social-links .nav {
+        margin-left: 0px;
+    }
+
     #release img {
         max-width: 100%;
     }
 
     #release h2 {
         text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    #social-links .nav {
+        margin-left: 0px;
+    }
+
+    #release img {
+        width: 100%;
     }
 }

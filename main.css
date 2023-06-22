@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lacquer', cursive;
+    background-color: #000;
+    color: #ffaa36;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #000;
+    color: #ffaa36;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover,
+.navbar i {
+    color: #ffaa36;
+}
+
+#home img {
+    width: 100%;
+}
+
+#release {
+    color: #ffaa36;
+}
+
+#release img {
+    width: 480px;
+}
+
+#fotos h2,
+#videos h2 {
+    text-align: center;
+}
